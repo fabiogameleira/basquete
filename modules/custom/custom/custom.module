@@ -1,0 +1,33 @@
+<?php
+
+function custom_form_contact_message_feedback_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  // Modification for the form with the given form ID goes here. For example, if
+  // FORM_ID is "user_register_form" this code would run only on the user
+  // registration form.
+
+  // Add a checkbox to registration form about agreeing to terms of use.
+//kint($form);
+add_placeholders($form);
+}
+
+function add_placeholders(&$element) {
+  if(isset($element['#type']) && in_array($element['#type'], ['textfield', 'password', 'email', 'textarea'])) {
+    $element['#attributes']['placeholder'] = $element['#title'];
+    $element['#title_display'] = 'invisible';
+  }
+  foreach(\Drupal\Core\Render\Element::children($element) as $key) {
+    add_placeholders($element[$key]);
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function custom_theme($existing, $type, $theme, $path) {
+  return [
+    'contact_message_form' => [
+      'template' => 'contact_message_feedback_form_file',
+      'render element' => 'form',
+    ]
+  ];
+}
