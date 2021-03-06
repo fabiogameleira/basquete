@@ -1,0 +1,1 @@
+c:\web\bas\vendor\bin\drush sql-cli<c:\web\ondetemforro8\backup\%1
