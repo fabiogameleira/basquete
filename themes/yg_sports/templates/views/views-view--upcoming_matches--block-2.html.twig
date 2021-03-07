@@ -11,9 +11,9 @@
           <tbody>
             {% for result in view.result %}
             <tr>
-                <td>{{ view.field.field_match_date.value(view.result[loop.index-1]) |date("M d, Y") | upper }}</td>
+                <td>{{ view.field.field_match_date.value(view.result[loop.index-1]) | date("d/m/Y") | upper }}</td>
                 <td>{{ view.field.title.value(view.result[loop.index-1]) }}</td>
-                <td>{{ view.field.field_sub_title_.value(view.result[loop.index-1]) | upper }}</td>
+                <td>{{ view.field.field_sub_title_.value(view.result[loop.index-1]) }}</td>
             {% endfor %}
             </tr>
           </tbody>
