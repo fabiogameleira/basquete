@@ -1304,3 +1304,23 @@ ul.other-blog-scr li a {
 	margin-right: 0px !important;
 	margin-left: 0px !important; 
 }
+
+/* imagem responsive */
+
+#about img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+#upcoming .matches img {
+    padding: 30px;
+}
+
+.img-responsive {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
