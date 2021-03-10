@@ -1382,3 +1382,16 @@ ul.other-blog-scr li a {
     padding: 0;
     margin: 0;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px)  {
+	.blog-container {
+		margin-top: 100px;
+	}
+	.carrossel .views-field-title {
+        padding: 10px 0 40px 0;	
+		font-size: 0.5em;
+	}
+	.carrossel .views-field-body {
+		display: none;
+		}
+}
