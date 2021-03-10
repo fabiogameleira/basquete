@@ -1332,9 +1332,7 @@ ul.other-blog-scr li a {
 #menu a.navbar-brand img {
 	width: 75px;
 }
-.flexslider .flex-direction-nav a, .flexslider .flex-direction-nav a {
-    display: block;
-}
+
 .flex-direction-nav .flex-prev {
     left: -50px;
 }
@@ -1365,7 +1363,7 @@ ul.other-blog-scr li a {
     content: '\f001';
     color: #FFF;
     text-shadow: 1px 1px 0 rgb(255 255 255 / 30%);
-    font-size: 1.5em;
+    font-size: 1.8em;
     padding: 0;
     margin: 0;
 }
