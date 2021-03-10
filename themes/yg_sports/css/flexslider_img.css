@@ -8,6 +8,10 @@
   display: block;
 }
 
+.flexslider {
+    margin: 0;
+}
+
 .flexslider .flex-direction-nav a.flex-prev,
 .flexslider .flex-direction-nav a.flex-next {
     display: block;
