@@ -400,7 +400,7 @@ header .intro-text {
 }
 /* Upcoming Section */
 #upcoming {
-  padding: 70px 0 90px;
+  /*padding: 70px 0 90px;*/
   background: #fff;
 }
 #upcoming .section-title h2 {
@@ -447,7 +447,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-  padding: 150px 0;
+  /*padding: 150px 0;*/
   background: #1bcdca;
 }
 #about h3 {
@@ -489,7 +489,7 @@ header .intro-text {
 }
 /* Fixtures Section */
 #fixtures {
-  padding: 60px 20px 80px;
+  /*padding: 60px 20px 80px;*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -508,7 +508,7 @@ header .intro-text {
 }
 /* Team Section */
 #team {
-  padding: 60px 20px;
+  /*padding: 60px 20px;*/
     background: #fff;
   min-height: 478px;
 }
@@ -535,7 +535,7 @@ header .intro-text {
 }
 /* Gallery Section */
 #gallery {
-  padding: 60px 0px 90px;
+  /*padding: 60px 0px 90px;*/
   background: #1bcdca;
 }
 #gallery h2 {
@@ -615,7 +615,7 @@ table td {
 #blog {
   background: #fff;
   padding: 60px 0;
-}s
+}
 #blog h3 {
   font-size: 22px;
   margin: 0 0 20px 0;
@@ -663,7 +663,7 @@ table td {
 }
 /* News Section */
 #news {
-  padding: 180px 0;
+  /*padding: 180px 0;*/
   background-size: cover;
 }
 #news h2 {
@@ -714,7 +714,7 @@ table td {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px 0;
+  /*padding: 100px 0 60px 0;*/
   color: #fff;
   background: #1bcdca;
 }
@@ -834,7 +834,7 @@ color: #bebebe;
 /* Footer Section*/
 #footer {
   background: #000;
-  padding: 30px 0px 20px;
+  /*padding: 30px 0px 20px;*/
 }
 #footer p {
   color: #fff;

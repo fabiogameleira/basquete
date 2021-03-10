@@ -9,6 +9,11 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+
+:focus {
+    outline: 1px dashed #ff000070 !important;
+}
+
 h2, h3, h4 {
 	font-family: 'Oswald', sans-serif !important;
 }
@@ -48,7 +53,7 @@ a {
 a:hover, a:focus {
 	text-decoration: none;
 	color: #608dfd;
-	outline: none !important;
+	/*outline: none !important;*/
 }
 ul, ol {
 	list-style: none;
@@ -412,7 +417,7 @@ header .intro-text {
 }
 /* Upcoming Section */
 #upcoming {
-	padding: 70px 0 90px;
+	padding: 60px 0px 60px 0px;
 	background: #fff;
 }
 #upcoming .section-title h2 {
@@ -459,7 +464,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-	padding: 150px 0;
+	padding: 60px 0px 60px 0px;
 	background: #ff3123;
 }
 #about h3 {
@@ -498,7 +503,7 @@ header .intro-text {
 }
 /* Fixtures Section */
 #fixtures {
-	padding: 60px 20px 80px;
+	padding: 60px 0px 60px 0px;
   	background-image: url('../images/banners/fixtures.jpg');
   	background-size: cover;
   	background-position: center;
@@ -518,7 +523,7 @@ header .intro-text {
 }
 /* Team Section */
 #team {
-	padding: 60px 20px;
+	padding: 60px 0px 60px 0px;
   	background: #fff;
 	min-height: 478px;
 }
@@ -549,7 +554,7 @@ header .intro-text {
 }
 /* Gallery Section */
 #gallery {
-	padding: 60px 0px 90px;
+	padding: 60px 0px 60px 0px;
 	background: #ff3123;
 }
 #gallery h2 {
@@ -628,7 +633,7 @@ table td {
 /* Blog Section */
 #blog {
 	background: #fff;
-	padding: 60px 0;
+	padding: 60px 0px 60px 0px;
 }s
 #blog h3 {
 	font-size: 22px;
@@ -737,7 +742,7 @@ table td {
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0 60px 0;
+	padding: 60px 0 60px 0;
 	color: #fff;
 	background: #ff3123;
 }
@@ -765,7 +770,7 @@ table td {
 	text-align: left;
 }
 #contact .form-submit {
-	margin: 0px 0px 30px;
+	/*margin: 0px 0px 30px;*/
 	background: transparent;
 	width: 100%;
 	border: none;
@@ -880,13 +885,13 @@ nav#toolbar-bar {
 	border-bottom: 2px solid #608dfd;
 }
 .user-logged-in #about {
-	padding: 200px 0;
+	/*padding: 200px 0;*/
 }
 .user-logged-in #fixtures {
-	padding: 160px 20px 190px;
+	/*padding: 160px 20px 190px;*/
 }
 .user-logged-in #team, .user-logged-in #gallery, .user-logged-in #blog, .user-logged-in #contact {
-    padding: 160px 20px;
+    /*padding: 160px 20px;*/
 }
 @media (min-width: 768px) {
 .navbar-nav.navbar-right:last-child {
@@ -1192,7 +1197,7 @@ table td {
     margin: 0px 0px 20px 0px;
 }    
 .blog-container .item .blog-item {
-    margin: 40px 0px 20px;
+    margin: 0px;
     float: left;
 }
 .blog-info {
