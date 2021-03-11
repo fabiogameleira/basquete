@@ -132,7 +132,8 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
   background: transparent !important;
 }
 .navbar {
-    min-height: 98px;
+    min-height: unset !important;
+	margin-bottom: unset  !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
@@ -849,10 +850,10 @@ input:-ms-input-placeholder, textarea::-moz-placeholder {
 color: #b5b5b5;
 }
 .user-logged-in.toolbar-vertical #menu {
-	margin-top: 38px;
+	/*margin-top: 38px;*/
 }
 .user-logged-in.toolbar-vertical .intro {
-    margin-top: 40px;
+    /*margin-top: 40px;*/
 }
 nav#toolbar-bar {
     z-index: 9999;
@@ -1345,7 +1346,7 @@ ul.other-blog-scr li a {
 }
 
 #menu a.navbar-brand img {
-	width: 75px;
+	width: 60px;
 }
 
 .flex-direction-nav .flex-prev {
@@ -1394,4 +1395,55 @@ ul.other-blog-scr li a {
 	.carrossel .views-field-body {
 		display: none;
 		}
+}
+
+#barra {
+   background-color: #000000;	
+   min-height: 30px;
+   color: #FFFFFF;
+}
+
+#barra nav {
+	margin:0;
+	padding:0;
+}
+
+#barra a {
+   color: #FFFFFF;
+}
+
+#barra .contextual a {
+   color: initial;
+}
+
+
+#barra ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none outside;
+}
+#barra ul.menu li{
+	margin: 0 10px;
+    display: inline-block;
+}
+.tabela td,
+.tabela th,
+.tabela label {
+	color: #000000;
+	font-size: 1.3em;
+	text-align: left;
+	padding: 0;
+}
+
+.tabela table td {
+	text-transform: none;
+	padding: 10px 0px !important;
+	font-family: initial;
+}
+
+.tabela a:hover {
+	text-decoration: underline;
+}
+.tabela .form--inline .form-item {
+    display: grid;
 }

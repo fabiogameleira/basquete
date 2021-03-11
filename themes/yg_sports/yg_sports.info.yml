@@ -9,6 +9,9 @@ core_version_requirement: ^8 || ^9
   
 
 regions:
+  top_left: 'top left'
+  top_center: 'top center'
+  top_right: 'top right'
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
   header: 'Top Bar'

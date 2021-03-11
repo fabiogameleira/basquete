@@ -43,11 +43,12 @@
 }
 }
 
+/*
 .container.blog-container.js-quickedit-main-content {
     padding-top: 150px;
     margin-bottom: 100px;
 }
-
+*/
 #about img {
     padding-right: 30px;
 }
@@ -86,3 +87,4 @@
 .btn:hover, .btn:focus{
     color: #fff !important;
 }
+

@@ -120,7 +120,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
   transition: width 0.2s !important;
 }
 .navbar {
-    min-height: 98px;
+    /*min-height: 98px;*/
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;

@@ -1,4 +1,25 @@
-<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+{% if logged_in %}
+{%  if page.top_left or page.top_center or page.top_right %}
+    <div id="barra">
+		<div class="col-md-3 top-left">
+		   {% if page.top_left %}
+				{{ page.top_left }}
+		   {% endif %}
+		</div>	
+		<div class="col-md-6 top-center">
+		   {% if page.top_center %}
+				{{ page.top_center }}
+		   {% endif %}
+		</div>	
+		<div class="col-md-3 top-right">
+		   {% if page.top_right %}
+				{{ page.top_right }}
+		   {% endif %}
+		</div>	
+	 </div>	
+{%  endif %}
+{% endif %}
+<nav id="menu" class="navbar navbar-default">
   <div class="container">
 {% if page.navigation or page.navigation_collapsible %}
   {% block navbar %}
