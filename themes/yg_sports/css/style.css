@@ -14,9 +14,15 @@ body, html {
     outline: 1px dashed #ff000070 !important;
 }
 
-h2, h3, h4 {
+h1, h2, h3, h4 {
 	font-family: 'Oswald', sans-serif !important;
 }
+
+h1.page-title {
+   text-transform: uppercase;
+}
+
+
 h2 {
 	text-transform: uppercase;
 	margin: 0 0 20px 0;
@@ -50,11 +56,17 @@ a {
 	color: #608dfd;
 	font-weight: 400;
 }
+
 a:hover, a:focus {
-	text-decoration: none;
-	color: #608dfd;
-	/*outline: none !important;*/
+	text-decoration: underline;
+	/*color: #608dfd;
+	outline: none !important;*/
 }
+
+.nav > li > a:hover, .nav > li > a:focus {
+	text-decoration: underline !important;
+}
+
 ul, ol {
 	list-style: none;
 }
@@ -88,7 +100,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 	font-size: 32px;
 	font-weight: 600;
 	color: #fff;
-	padding: 11px 0px;
+	/*padding: 11px 0px;*/
 	text-transform: capitalize;
 	font-style: italic;
 	line-height: 220%;
@@ -464,16 +476,28 @@ header .intro-text {
 	font-weight: 300;
 }
 /* About Section */
-#about {
+#about, .about {
 	padding: 60px 0px 60px 0px;
-	background: #ff3123;
 }
-#about h3 {
+
+#about img ,
+.about img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+#about h3,
+.about h3 {
 	font-size: 20px;
 	margin: 0 0 5px 0;
 	color: #fff;
 }
-#about h2 {
+#about h2,
+#about h2 a,
+.about h2,
+.about h2 a{
 	position: relative;
 	color: #fff;
 	font-size: 34px;
@@ -482,9 +506,16 @@ header .intro-text {
 	padding-bottom: 0px;
 	font-weight: 300;
 }
-#about p {
-	color: #fff;
+
+#about p, .about p {
+    margin: 15px 0;
+    color: #fff;
+	font-size: 16px;
 }
+#about p a , .about p a {
+  text-decoration: underline;
+}
+
 #about .about-text li {
 	margin-bottom: 6px;
 	margin-left: 6px;
@@ -1346,7 +1377,7 @@ ul.other-blog-scr li a {
 }
 
 #menu a.navbar-brand img {
-	width: 60px;
+	width: 70px;
 }
 
 .flex-direction-nav .flex-prev {
@@ -1450,4 +1481,16 @@ ul.other-blog-scr li a {
 }
 .tabela .form--inline .form-item {
     display: grid;
+}
+
+/* Formulários */
+form.views-exposed-form {
+    border: 1px solid #dddddd;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
+    padding: 10px 10px 10px 10px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 2px;
+}
+input, button, select, textarea {
+    min-height: 32px;
 }

@@ -7,7 +7,7 @@ function yg_sports_preprocess_page(&$variables) {
   $emails = [];
   $block_id = 2;
   global $base_path;
-  $variables['logopath'] = $base_path . drupal_get_path('theme','yg_sports') . '/logo-atitude.png';
+  $variables['logopath'] = $base_path . drupal_get_path('theme','yg_sports') . '/logo-atitude.gif';
   $variables['joinus_description'] = !empty(theme_get_setting('joinus_description')) ? theme_get_setting('joinus_description') : 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.';
   $variables['joinusurl'] = theme_get_setting('joinusurl');
   // $block = \Drupal\block\Entity\Block::load('contactblock');

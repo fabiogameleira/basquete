@@ -448,16 +448,19 @@ header .intro-text {
   font-weight: 300;
 }
 /* About Section */
-#about {
+#about,
+.about {
   /*padding: 150px 0;*/
   background: #cd2122;
 }
-#about h3 {
+#about h3,
+.about .field--name-field-sub-title- {
   font-size: 20px;
   margin: 0 0 5px 0;
   color: #fff;
 }
-#about h2 {
+#about h2,
+.about h2{
   position: relative;
   color: #fff;
   font-size: 34px;
@@ -466,16 +469,23 @@ header .intro-text {
   padding-bottom: 0px;
   font-weight: 300;
 }
-#about p {
+#about p, .about p {
   color: #fff;
 }
-#about .about-text li {
+
+#about p a {
+  color: #fff;
+}
+
+#about .about-text li,
+.about .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
   list-style: none;
   padding: 0;
 }
-#about .about-text li:before {
+#about .about-text li:before,
+.about .about-text li:before {
   content: '\f00c';
   font-family: 'FontAwesome';
   color: #be1e2d;
@@ -483,11 +493,9 @@ header .intro-text {
   font-weight: 300;
   padding-right: 8px;
 }
-#about img {
+#about img,
+.about img {
 
-}
-#about p {
-  margin: 15px 0;
 }
 /* Fixtures Section */
 #fixtures {
@@ -495,7 +503,7 @@ header .intro-text {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  min-height: 478px;
+	min-height: 478px;
 }
 #fixtures h3 {
   font-size: 22px;

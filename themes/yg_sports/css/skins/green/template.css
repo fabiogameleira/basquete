@@ -446,7 +446,7 @@ header .intro-text {
   font-weight: 300;
 }
 /* About Section */
-#about {
+#about, .about {
   /*padding: 150px 0;*/
   background: #039673;
 }
@@ -464,9 +464,14 @@ header .intro-text {
   padding-bottom: 0px;
   font-weight: 300;
 }
-#about p {
+#about p, .about p {
   color: #fff;
 }
+
+#about p a {
+  color: #fff;
+}
+
 #about .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
@@ -484,9 +489,7 @@ header .intro-text {
 #about img {
 
 }
-#about p {
-  margin: 15px 0;
-}
+
 /* Fixtures Section */
 #fixtures {
   /*padding: 60px 20px 80px;*/
