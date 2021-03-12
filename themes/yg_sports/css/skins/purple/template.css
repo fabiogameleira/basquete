@@ -445,6 +445,10 @@ header .intro-text {
   margin: 0px;
   font-weight: 300;
 }
+/* Barra topo */
+#barra {
+  background: #9854b3;	
+}
 /* About Section */
 #about, .about {
   /*padding: 150px 0;*/

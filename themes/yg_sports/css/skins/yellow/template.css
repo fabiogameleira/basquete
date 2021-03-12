@@ -445,10 +445,14 @@ header .intro-text {
   margin: 0px;
   font-weight: 300;
 }
+/* Barra topo */
+#barra {
+  background-color: #ecc311;	
+}
 /* About Section */
 #about, .about {
   /*padding: 150px 0;*/
-  background: #ecc311;
+  background-color: #ecc311;
 }
 #about h3 {
   font-size: 20px;

@@ -71,10 +71,13 @@
     {{ page }}
     {{ page_bottom }}
     <js-bottom-placeholder token="{{ placeholder_token|raw }}">
-    {% if addon_template %}
-      <div class="permission-save-{{ save_customize_permission }}">
-        {% include addon_template %}
-      </div>
-    {% endif %}
+    {% if logged_in %}
+		{% if addon_template %}
+		  <div class="permission-save-{{ save_customize_permission }}">
+			{% include addon_template %}
+		  </div>
+		{% endif %}
+	{% endif %}
+	
   </body>
 </html>
