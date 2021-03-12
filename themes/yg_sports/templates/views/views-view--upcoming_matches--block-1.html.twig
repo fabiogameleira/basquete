@@ -7,7 +7,7 @@
               <h2>{{ 'UPCOMING MATCHS'|t }}</h2>
           </div>
           {% for result in view.result %}
-            <div class="col-md-2 col-sm-4 col-xs-12 matches">
+            <div class="col-md-2 col-sm-4 col-xs-6 matches">
             <span>VS</span>
             <div class="matche-image">
 				<img src="{{ file_url(view.field.uri.value(view.result[loop.index-1])) }}" class="img-responsive" alt="{{ view.field.title.value(view.result[loop.index-1]) }}"/>

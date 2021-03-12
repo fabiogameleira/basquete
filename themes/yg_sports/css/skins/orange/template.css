@@ -472,7 +472,7 @@ header .intro-text {
   color: #fff;
 }
 
-#about p a {
+#about p a, .about p a {
   color: #fff;
 }
 
@@ -600,24 +600,7 @@ table {
     border-collapse: separate;
     border-padding: 1em;
 }
-table th {
-  font-family: 'Oswald', sans-serif;
-  color: #fff;
-  font-size: 24px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 300;
-}
-table td {
-  font-family: 'Oswald', sans-serif;
-  font-size: 22px;
-  color: #fff;
-  margin: 0px;
-  font-weight: 300;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 25px 0px !important;
-}
+
 /* Blog Section */
 #blog {
   background: #fff;

@@ -472,7 +472,7 @@ header .intro-text {
   color: #fff;
 }
 
-#about p a {
+#about p a, .about p a {
   color: #fff;
 }
 
