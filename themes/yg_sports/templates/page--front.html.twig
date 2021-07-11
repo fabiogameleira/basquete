@@ -1,7 +1,7 @@
 {% if logged_in %}
 {%  if page.top_left or page.top_center or page.top_right %}
     <div id="barra">
-		<div class="col-md-3 top-left">
+		<div class="col-md-2 top-left">
 		   {% if page.top_left %}
 				{{ page.top_left }}
 		   {% endif %}
@@ -11,7 +11,7 @@
 				{{ page.top_center }}
 		   {% endif %}
 		</div>	
-		<div class="col-md-3 top-right">
+		<div class="col-md-4 top-right">
 		   {% if page.top_right %}
 				{{ page.top_right }}
 		   {% endif %}
